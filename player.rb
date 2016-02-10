@@ -9,5 +9,7 @@ class Player
   end
 
   def call_shot
-    puts "testing"
+    coordinates = (65 + rand(10)).chr + rand(1..10).to_s
+  end
+
 end
