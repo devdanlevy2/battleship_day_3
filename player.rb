@@ -7,4 +7,7 @@ class Player
   def ships
     @grid.ships
   end
+
+  def call_shot
+    puts "testing"
 end
