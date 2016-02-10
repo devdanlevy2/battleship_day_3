@@ -17,6 +17,6 @@ class ComputerPlayer < Player
       ship_number += 1
       end
     end
-  puts "HAL 9000 has placed its ships.\n"
+    puts "HAL 9000 has placed its ships.\n"
   end
 end

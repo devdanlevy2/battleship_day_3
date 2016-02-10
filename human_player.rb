@@ -5,6 +5,7 @@ class HumanPlayer < Player
     @name = name
     super()
   end
+
   def place_ships(lengths)
     ship_number = 0
     while(ship_number < lengths.length)

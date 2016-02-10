@@ -1,5 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
+require 'byebug'
+
 
 #Note: This line is going to fail first.
 require './battleship.rb'
@@ -442,7 +444,6 @@ J |   |   |   |   |   |   |   |   |   |   |
                   "HAL 9000 has placed its ships.\n") do
       game.place_ships
     end
-
     assert_equal 5, human.ships.length
     assert human.grid.has_ship_on?(1, 2)
     assert human.grid.has_ship_on?(3, 3)
